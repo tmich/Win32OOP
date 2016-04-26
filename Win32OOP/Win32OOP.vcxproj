@@ -146,6 +146,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="WApplication.h" />
+    <ClInclude Include="WControl.h" />
+    <ClInclude Include="WWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="WControl.cpp" />
+    <ClCompile Include="WWindow.cpp" />
+    <ClCompile Include="WApplication.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
